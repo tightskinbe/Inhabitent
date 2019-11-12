@@ -670,3 +670,10 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+footer {
+  background: url(./images/imgs/dark-wood.png);
+  color: red; }
+
+header {
+  background: url(./imgs/dark-wood.png);
+  color: green; }
