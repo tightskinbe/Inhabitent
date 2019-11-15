@@ -27,10 +27,6 @@ a {
 /* Menus */
 
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
 
 	ul {
 		display: none;
@@ -40,7 +36,7 @@ a {
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
+			
 			position: absolute;
 			top: $base__space-unit;
 			left: -999rem;
@@ -62,13 +58,9 @@ a {
 				width: 200px;
 			}
 
-			:hover > a,
-			.focus > a {
-			}
+		
 
-			a:hover,
-			a.focus {
-			}
+		
 		}
 
 		li:hover > ul,
@@ -77,22 +69,16 @@ a {
 		}
 	}
 	li {
-		float: left;
+		
 		position: relative;
 
-		&:hover > a,
-		&.focus > a {
-		}
+		
 	}
 	a {
 		display: block;
 		text-decoration: none;
 	}
 
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a {
-	}
 }
 
 /* Small menu. */
@@ -104,9 +90,6 @@ a {
 @media screen and (min-width: 768px) {
 	.menu-toggle {
 		display: none;
-	}
-	.main-navigation ul {
-		display: block;
 	}
 }
 
@@ -120,13 +103,28 @@ a {
 	}
 
 	.nav-previous {
-		float: left;
+		
 		width: 50%;
 	}
 
 	.nav-next {
-		float: right;
+		
 		text-align: right;
 		width: 50%;
 	}
+}
+
+
+//header nav
+
+.main-navigation ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-direction: row;
+	padding-right: 20px;
+}
+
+.main-navigation li {
+	padding-left: 20px;
 }

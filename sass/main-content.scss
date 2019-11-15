@@ -1,0 +1,56 @@
+
+
+.site-footer {
+    background: url(../../images/imgs/dark-wood.png);
+    height: 380px;
+    color: white;
+}
+
+
+.flex-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 12%;
+    padding-top: 40px;
+    h3 {
+        font-size: 25px;
+    }
+    
+}
+.footer-hours {
+    padding-left: 5rem;
+}
+.footer-logo {
+padding-left: 15rem;
+padding-top: 2rem;
+color: white;
+}
+//end of footer content
+
+header {
+    color: green;
+    text-align: center;
+
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 40px;
+    
+}
+
+//end of header content
+
+.side-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
