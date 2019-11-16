@@ -128,3 +128,47 @@ a {
 .main-navigation li {
 	padding-left: 20px;
 }
+
+
+
+.shop-stuff {
+	text-align: center;
+}
+
+.product-type-block-wrapper {
+	border: 1px, solid, $shop-stuff;
+	border-top: 3px, solid, $shop-stuff;
+	padding: 30px;
+	margin: 30px;
+	width: 250px;
+	height: 250px;
+	a{
+		text-decoration: none;
+		background-color: $shop-button;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: white;
+		
+	}
+
+}
+.product-type-block-wrapper:hover{
+	border: 1px, solid, #d99054;
+	border-top: 3px, solid #d99054;
+
+	}
+.product-type-block-wrapper a:hover{
+	background-color: rgba($shop-button, 0.5);
+	
+	}
+
+
+
+
+.product-type-blocks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}

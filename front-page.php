@@ -11,7 +11,9 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<section class="shop-container">
+         <div>
             <h2>Shop Stuff</h2>
+         </div>
             <?php
                $terms = get_terms( array(
                    'taxonomy' => 'product_type',
@@ -22,7 +24,8 @@ get_header(); ?>
                <div class="product-type-blocks">
                   <?php foreach ( $terms as $term ) : ?>
                      <div class="product-type-block-wrapper">
-                        <img src="<?php echo get_template_directory_uri() . '/images/imgs/product-type-icons/' . $term->slug; ?>.svg" alt="<?php echo $term->name; ?>" />
+                        <img src="<?php echo get_template_directory_uri() . '/images/imgs/product-type-icons/' . $term->slug; ?>.svg" 
+                       width="100px" height="100px" alt="<?php echo $term->name; ?>" />
                         <p><?php echo $term->description; ?></p>
                         <p><a href="<?php echo get_term_link( $term ); ?>" class="btn"><?php echo $term->name; ?> Stuff</a></p>
                      </div>
