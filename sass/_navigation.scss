@@ -201,48 +201,131 @@ a {
 }
 
 .grid-adventures {
-	margin: 0 auto;
-	max-width: 1000px;
+	margin:auto;
+	max-width: 1120px;
 	display: grid;
-	grid-template-columns: repeat(11, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 1rem;
-	grid-auto-rows: auto;
-	color: red;
+	grid-template-rows: 265px 265px;
+	
+	
+	> div {
+		position: relative;
+	}
+	img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.adventure-meta {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1rem;
+	font-size: 30px;
+	color: white;
+	a {
+	color: white;
+	text-decoration: none;
+	&:hover {
+		background-color: $shop-button;
+		border: none;
+	}	
+	}
+	
+	
 }
 
 .one {
-	grid-column: 1 / 8;
-	grid-row: 1 / 5;
+	grid-column: 1 / 3;
+	grid-row: 1 / 3;
 	a {
-		border: 2px, solid, black;
-		padding: 20px;
+		border: 1px, solid, white;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
 	}
 
 }
 
 
 .two {
-	grid-column: 8 / 12;
-	grid-row: 1 / 4;
+	grid-column: 3 / -1;
+	grid-row: 1 / 2;
+	font-size: 18px;
+	line-height: 40px;
 	a {
-		border: 2px, solid, black;
-		padding: 20px;
+		border: 1px, solid, white;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
 	}
 }
 
 .three {
-	grid-column: 8 / 10;
+	grid-column: 3 / 4;
+	line-height: 30px;
 	a {
-		border: 2px, solid, black;
-		padding: 20px;
+		border: 1px, solid, white;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
 	}
 	
 }
 
 .four {
-	grid-column: 10 / 12;
+	grid-column: 4 / -1;
+	line-height: 30px;
+	
 	a {
-		border: 2px, solid, black;
-		padding: 20px;
+		border: 1px, solid, white;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px;
 	}
+	h3 {
+		font-size: 26px;
+	}
+}
+
+
+.read-more {
+	background-color: white;
+	border: 1px, solid, black; 
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+	&:visited{
+		color: black;
+	}
+	&:hover {
+	background-color: $shop-button;
+	border: none;
+	color: white;
+	}
+}
+
+.stars {
+	position: absolute;
+	top: 288%;
+	left: 73%;
+	width: 100px;
+}
+
+.canoe {
+	position: absolute;
+	top: 258%;
+	left: 53%;
+	width: 100px;
+}
+
+.padding-mount {
+	margin: none;
 }

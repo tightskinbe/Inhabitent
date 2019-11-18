@@ -61,7 +61,9 @@
 						<!-- do nothing -->
 					<?php  }?>
 				<?php } //end of if for the thumbnail img?>
-				 
+				 <div id="header-scroll">
+					 
+				 </div>
 
 			<!-- end of tumbnail php -->
 			

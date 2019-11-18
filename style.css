@@ -597,39 +597,105 @@ a {
   text-align: center; }
 
 .grid-adventures {
-  margin: 0 auto;
-  max-width: 1000px;
+  margin: auto;
+  max-width: 1120px;
   display: grid;
-  grid-template-columns: repeat(11, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
-  grid-auto-rows: auto;
-  color: red; }
+  grid-template-rows: 265px 265px; }
+  .grid-adventures > div {
+    position: relative; }
+  .grid-adventures img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+.adventure-meta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 30px;
+  color: white; }
+  .adventure-meta a {
+    color: white;
+    text-decoration: none; }
+    .adventure-meta a:hover {
+      background-color: #248a83;
+      border: none; }
 
 .one {
-  grid-column: 1 / 8;
-  grid-row: 1 / 5; }
+  grid-column: 1 / 3;
+  grid-row: 1 / 3; }
   .one a {
-    border: 2px, solid, black;
-    padding: 20px; }
+    border: 1px, solid, white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; }
 
 .two {
-  grid-column: 8 / 12;
-  grid-row: 1 / 4; }
+  grid-column: 3 / -1;
+  grid-row: 1 / 2;
+  font-size: 18px;
+  line-height: 40px; }
   .two a {
-    border: 2px, solid, black;
-    padding: 20px; }
+    border: 1px, solid, white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; }
 
 .three {
-  grid-column: 8 / 10; }
+  grid-column: 3 / 4;
+  line-height: 30px; }
   .three a {
-    border: 2px, solid, black;
-    padding: 20px; }
+    border: 1px, solid, white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; }
 
 .four {
-  grid-column: 10 / 12; }
+  grid-column: 4 / -1;
+  line-height: 30px; }
   .four a {
-    border: 2px, solid, black;
-    padding: 20px; }
+    border: 1px, solid, white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; }
+  .four h3 {
+    font-size: 26px; }
+
+.read-more {
+  background-color: white;
+  border: 1px, solid, black;
+  padding: 20px;
+  text-decoration: none;
+  color: black; }
+  .read-more:visited {
+    color: black; }
+  .read-more:hover {
+    background-color: #248a83;
+    border: none;
+    color: white; }
+
+.stars {
+  position: absolute;
+  top: 288%;
+  left: 73%;
+  width: 100px; }
+
+.canoe {
+  position: absolute;
+  top: 258%;
+  left: 53%;
+  width: 100px; }
+
+.padding-mount {
+  margin: none; }
 
 /*--------------------------------------------------------------
 # Accessibility
