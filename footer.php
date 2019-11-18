@@ -32,6 +32,7 @@
 					
 				</div>
 				</div>
+				<p class="copy-right">COPYRIGHT &copy 2019 INHABITENT</p>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 

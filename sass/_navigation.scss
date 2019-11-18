@@ -137,7 +137,7 @@ a {
 
 .product-type-block-wrapper {
 	border: 1px, solid, $shop-stuff;
-	border-top: 3px, solid, $shop-stuff;
+	border-top: 4px, solid, $shop-stuff;
 	padding: 30px;
 	margin: 30px;
 	width: 250px;
@@ -149,21 +149,19 @@ a {
 		padding-left: 20px;
 		padding-right: 20px;
 		color: white;
+
+
+		&:hover{
+			background-color: $shop-button-hover;
+			}
 		
 	}
 
 }
 .product-type-block-wrapper:hover{
 	border: 1px, solid, #d99054;
-	border-top: 3px, solid #d99054;
-
+	border-top: 4px, solid #d99054;
 	}
-.product-type-block-wrapper a:hover{
-	background-color: rgba($shop-button, 0.5);
-	
-	}
-
-
 
 
 .product-type-blocks {
@@ -171,4 +169,29 @@ a {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+}
+
+.front-journal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:1px, solid, $shop-stuff;
+	margin: 10px;
+	width: 33.333%;
+	
+
+}
+
+.flex-journals {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.Inhabitent-Journal {
+	text-align: center;
 }

@@ -355,6 +355,10 @@ table {
   text-align: center;
   padding-bottom: 40px; }
 
+.copy-right {
+  text-align: center;
+  padding-top: 40px; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -519,7 +523,7 @@ a {
 
 .product-type-block-wrapper {
   border: 1px, solid, #e1e1e1;
-  border-top: 3px, solid, #e1e1e1;
+  border-top: 4px, solid, #e1e1e1;
   padding: 30px;
   margin: 30px;
   width: 250px;
@@ -531,13 +535,12 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     color: white; }
+    .product-type-block-wrapper a:hover {
+      background-color: #19625d; }
 
 .product-type-block-wrapper:hover {
   border: 1px, solid, #d99054;
-  border-top: 3px, solid #d99054; }
-
-.product-type-block-wrapper a:hover {
-  background-color: rgba(36, 138, 131, 0.5); }
+  border-top: 4px, solid #d99054; }
 
 .product-type-blocks {
   display: -webkit-box;
@@ -553,6 +556,42 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
+
+.front-journal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px, solid, #e1e1e1;
+  margin: 10px;
+  width: 33.333%; }
+
+.flex-journals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.Inhabitent-Journal {
+  text-align: center; }
 
 /*--------------------------------------------------------------
 # Accessibility
