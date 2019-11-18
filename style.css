@@ -524,10 +524,10 @@ a {
 .product-type-block-wrapper {
   border: 1px, solid, #e1e1e1;
   border-top: 4px, solid, #e1e1e1;
-  padding: 30px;
-  margin: 30px;
+  padding: 5px;
+  margin: 10px;
   width: 250px;
-  height: 250px; }
+  height: 280px; }
   .product-type-block-wrapper a {
     text-decoration: none;
     background-color: #248a83;
@@ -592,6 +592,44 @@ a {
 
 .Inhabitent-Journal {
   text-align: center; }
+
+.latest-adventures {
+  text-align: center; }
+
+.grid-adventures {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-gap: 1rem;
+  grid-auto-rows: auto;
+  color: red; }
+
+.one {
+  grid-column: 1 / 8;
+  grid-row: 1 / 5; }
+  .one a {
+    border: 2px, solid, black;
+    padding: 20px; }
+
+.two {
+  grid-column: 8 / 12;
+  grid-row: 1 / 4; }
+  .two a {
+    border: 2px, solid, black;
+    padding: 20px; }
+
+.three {
+  grid-column: 8 / 10; }
+  .three a {
+    border: 2px, solid, black;
+    padding: 20px; }
+
+.four {
+  grid-column: 10 / 12; }
+  .four a {
+    border: 2px, solid, black;
+    padding: 20px; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -812,7 +850,7 @@ header {
           align-items: center;
   position: fixed;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.85);
   height: 40px; }
 
 .side-bar {
@@ -828,7 +866,8 @@ header {
 
 .tent-logo {
   text-align: left;
-  height: 30px; }
+  height: 30px;
+  padding-left: 150px; }
 
 .front-logo {
   position: absolute;

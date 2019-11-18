@@ -34,6 +34,7 @@ get_header(); ?>
             <?php endif; ?>
          </section>
          <div>
+            <!-- end of shop Stuff -->
          <section>
                 <h2 class="Inhabitent-Journal">Inhabitent Journal</h2>
                 <?php
@@ -49,7 +50,38 @@ get_header(); ?>
                         </article>
                     <?php endforeach; wp_reset_postdata(); ?>
                 </div>
-            </section>
+                </section>
+                <!-- end of Inhabitent Journal -->
+            <section>
+               <h2 class="latest-adventures">Latest Adventures</h2>
+               <!-- grid content -->
+               <div class="grid-adventures">
+               <div class="one">
+               <img src="<?php echo get_template_directory_uri(); ?>/images/imgs/adventure-photos/canoe-girl.jpg" width="100%" height="100%"alt="" />
+                  <h3>Getting Back to Nature in a Canoe</h3>
+                  <a href="/inhabitent">Read More</a>
+               </div>
+               <div class="two">
+               <img src="<?php echo get_template_directory_uri(); ?>/images/imgs/adventure-photos/beach-bonfire.jpg" width="100%" height="50%"alt="" />
+                  <h3>A Night with Friends at the Beach</h3>
+                  <a href="/inhabitent">Read More</a>
+               </div>
+               <div class="three">
+               <img src="<?php echo get_template_directory_uri(); ?>/images/imgs/adventure-photos/mountain-hikers.jpg" width="100%" height="50%"alt="" />
+                  <h3>Taking in the View at Big Mountain</h3>
+                  <a href="/inhabitent">Read More</a>
+               </div>
+               <div class="four">
+               <img src="<?php echo get_template_directory_uri(); ?>/images/imgs/adventure-photos/night-sky.jpg" width="100%" height="50%"alt="" />
+                  <h3>Star-Gazing at the Night Sky</h3>
+                  <a href="/inhabitent">Read More</a>
+               </div>
+               </div>
+                  
+            </section> 
+            <!-- end of Latest Adventures -->
+
+            
       
       
       

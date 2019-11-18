@@ -138,10 +138,10 @@ a {
 .product-type-block-wrapper {
 	border: 1px, solid, $shop-stuff;
 	border-top: 4px, solid, $shop-stuff;
-	padding: 30px;
-	margin: 30px;
+	padding: 5px;
+	margin: 10px;
 	width: 250px;
-	height: 250px;
+	height: 280px;
 	a{
 		text-decoration: none;
 		background-color: $shop-button;
@@ -194,4 +194,55 @@ a {
 
 .Inhabitent-Journal {
 	text-align: center;
+}
+
+.latest-adventures {
+	text-align: center;
+}
+
+.grid-adventures {
+	margin: 0 auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	grid-gap: 1rem;
+	grid-auto-rows: auto;
+	color: red;
+}
+
+.one {
+	grid-column: 1 / 8;
+	grid-row: 1 / 5;
+	a {
+		border: 2px, solid, black;
+		padding: 20px;
+	}
+
+}
+
+
+.two {
+	grid-column: 8 / 12;
+	grid-row: 1 / 4;
+	a {
+		border: 2px, solid, black;
+		padding: 20px;
+	}
+}
+
+.three {
+	grid-column: 8 / 10;
+	a {
+		border: 2px, solid, black;
+		padding: 20px;
+	}
+	
+}
+
+.four {
+	grid-column: 10 / 12;
+	a {
+		border: 2px, solid, black;
+		padding: 20px;
+	}
 }
