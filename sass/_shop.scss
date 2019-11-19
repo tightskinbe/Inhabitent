@@ -1,0 +1,20 @@
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin: 160px;
+}
+
+.product-meta {
+    border: 1px, solid, black;
+    border-top: 3px, solid, black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    h2 {
+        margin: 0 auto;
+        padding-top: 0;
+        font-size: 18px;
+    }
+    
+}

@@ -917,7 +917,8 @@ header {
   position: fixed;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.85);
-  height: 40px; }
+  height: 40px;
+  border-bottom: 1px, solid, #e1e1e1; }
 
 .side-bar {
   display: -webkit-box;
@@ -930,6 +931,25 @@ header {
       -ms-flex-align: end;
           align-items: flex-end; }
 
+.about-content {
+  margin: 0 auto;
+  text-align: center; }
+
+.flex-journals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
 .tent-logo {
   text-align: left;
   height: 30px;
@@ -939,3 +959,60 @@ header {
   position: absolute;
   top: 38%;
   left: 40%; }
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin: 160px; }
+
+.product-meta {
+  border: 1px, solid, black;
+  border-top: 3px, solid, black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .product-meta h2 {
+    margin: 0 auto;
+    padding-top: 0;
+    font-size: 18px; }
+
+.find-us {
+  margin-top: 93px;
+  padding-left: 50px; }
+
+.camping {
+  width: 800px;
+  padding-left: 50px; }
+
+.wpcf7-form {
+  padding-left: 50px; }
+
+.wpcf7-textarea {
+  width: 800px; }
+
+.find-us-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 100px; }
+
+.widget-area {
+  position: absolute;
+  top: 10.1%;
+  border: 1px, solid, #e1e1e1;
+  width: 400px;
+  padding-top: 45px;
+  padding-left: 30px;
+  height: 1407px;
+  border-bottom: none; }
