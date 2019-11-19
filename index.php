@@ -32,7 +32,8 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
-		</div>
+		</div> 
+		<!-- flex j -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
